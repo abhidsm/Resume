@@ -1,0 +1,124 @@
+\documentclass{resume}
+
+\renewcommand{\categoryfont}{\sc}
+
+%
+% set the space used for category titles here:
+% use the same value for oddsidemargin and marginparwidth [the latter 
+% 		will be reset to account for marginparsep]
+% 
+\setlength{\oddsidemargin}{1in}
+\setlength{\marginparwidth}{1in}
+% 
+% calculate other dimensions [textwidth and evensidemargin] 
+% in function of oddsidemargin and marginparwidth: 
+% would be nicer to put in the class file...
+%
+\addtolength{\marginparwidth}{-\marginparsep}
+ \setlength{\evensidemargin}{\oddsidemargin}
+ \setlength{\textwidth}{\paperwidth}
+ \addtolength{\textwidth}{-2in}
+ \addtolength{\textwidth}{-2\oddsidemargin}
+ \addtolength{\textwidth}{\marginparwidth}
+ \addtolength{\textwidth}{\marginparsep}
+%
+%
+\setlength{\topmargin}{-0.5in}
+%
+%
+\renewcommand{\labelcitem}{$\diamond$}
+\renewcommand{\labelitemi}{$\cdot$}
+\newcommand{\first}{$1^{\mbox{\scriptsize st}}$\ }
+\newcommand{\second}{$2^{\mbox{\scriptsize nd}}$\ }
+\newcommand{\third}{$3^{\mbox{\scriptsize rd}}$\ }
+
+\author{Abhilash M A}
+% ------ Address --------------------------------------------------------
+
+\address{Product Developer\\
+  Multunus Software Private Limited\\
+  Bangalore, Karnataka\\
+  {\em Ph:} (+91)-99-1698-5153}{
+  {\em email:} \mbox{\small\tt abhidsm@gmail.com}\\
+  {\em web:} \mbox{\small\tt abhidsm.com}\\
+  {\em github:} \mbox{\small\tt github.com/abhidsm}\\
+  {\em linkedin:} \mbox{\small\tt linkedin.com/in/abhidsm}}
+
+\begin{document}
+\maketitle
+
+% ------- Education ---------------------------------------------------
+
+\begin{category}{Education}
+  \citem{B-Tech in Computer Science \& Engineering} \hfill \textbf{2005 -- 2008}
+  \citemnobullet University of Calicut, Jyothi Engineering College, Kerala.
+  \citem{Diploma, Computer Engineering} \hfill \textbf{2002 -- 2005}
+  \citemnobullet IPT \& GPTC Shoranur, Kerala.
+  \citem{Vocational Higher Secondary Education in Computer Science} \hfill \textbf{2000 -- 2002}
+  \citemnobullet GVHSS Shoranur, Kerala.
+\end{category}
+
+% --------- Research ----------------------------------------------------
+
+\begin{category}{Research interests}
+  \citemnobullet NoSQL databases, application development for android,
+  test driven development, development of ruby gems, design patterns.
+\end{category}
+
+\begin{category}{Technical Skills}
+  \citembullet {\it Operating Systems}: GNU/Linux, Mac OSX, Microsoft Windows.
+  \citembullet {\it Programming Languages}: Ruby, JavaScript, HTML5, CSS3,
+  Objective C, Java, C\# .NET.
+  \citembullet {\it Frameworks}: Rails, ASP.NET, jQuery, rspec, jasmine.
+  \citembullet {\it Databases}: MySQL, MongoDB, Redis.
+  \citembullet {\it Tools}: Backbone.js, sinon.js, jsTestDriver,
+  jenkins, capistrano.
+  \citembullet {\it Version Control}: Git.
+  \citembullet {\it Cloud Platforms}: Google App Engine, Amazon EC2, Amazon S3.
+  \citembullet {\it Specialities}: Ruby, Rails, NoSQL databases, Web services, Automation \& deployment, 
+  android, iOS and web application development, Test Driven
+  Development, experienced with Agile software development
+  methodologies, generalist programmer.
+\end{category}
+
+% -------- Work experience --------------------------------------------
+
+\begin{category}{Work \\experience}
+  \citem{Multunus Software Private Limited, Bangalore}
+  \citemnobullet \textbf{Product Developer} \hfill \textbf{May 2010 -- present}
+  \citemnobullet Working as part of a team who are helping entrepreneurs to succeed.
+  \begin{itemize}
+  \item Developed mobile applications using android, iOS, and phonegap.
+  \item Developed single page applications with Backbone.js, jQuery, HTML5, CSS3, Jasmine, JS TestDriver, Sinon.js.
+  \item Developed social networking web app for the HealthCare domain, which connects people to the health professionals. [Ruby on rails, Refinery CMS, Solr, Sunspot, JS Testdriver, RSpec2]
+  \item Developed location aware service that enables Public Radio stations connect Local Businesses with the Local community. [Ruby on Rails, Geokit, Rspec]
+  \item Developed Outlook plugin using C\#.NET, VSTO.
+  \end{itemize}
+  \citem{AikoInfotech, Thrissur} 
+  \citemnobullet \textbf{Software Programmer} \hfill \textbf{July 2008 -- April 2010}
+  \citemnobullet Developed web, desktop and mobile applications, 
+  \begin{itemize} 
+  \item Graphical Application [using C\#.NET].
+  \item Web based Business application and Multi Level Marketing application [using ASP.NET, C\#.NET and MS SQL].
+  \item Standalone application for a Business System [using C\#.NET and MS SQL]
+  \end{itemize}
+\end{category}
+
+% -------- Awards & Honours ---------------------------------------
+
+\begin{category}{Awards \&\\ Honours}
+  \citem{``Star of the year''}, {\em Multunus Software Private Limited}. \hfill \textbf{2010}
+\end{category}
+
+
+% -------- Opensource -------------------------------------------
+
+\begin{category}{Opensource}
+  \citemnobullet List of major opensource contributions. Refer GitHub for source code.
+  \citembullet \textbf{time\_diff}: Ruby Gem which calculates the
+  difference between two time.
+  \citembullet \textbf{OrphanRecords}: Ruby Gem which show/delete the orphan records in your Rails application
+  \citembullet \textbf{who-is-next}: An android application which helps us to keep in touch with friends and relatives.
+\end{category}
+
+\end{document}
