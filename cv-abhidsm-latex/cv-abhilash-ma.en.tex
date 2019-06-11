@@ -4,14 +4,14 @@
 
 %
 % set the space used for category titles here:
-% use the same value for oddsidemargin and marginparwidth [the latter 
+% use the same value for oddsidemargin and marginparwidth [the latter
 % 		will be reset to account for marginparsep]
-% 
+%
 \setlength{\oddsidemargin}{1in}
 \setlength{\marginparwidth}{1in}
-% 
-% calculate other dimensions [textwidth and evensidemargin] 
-% in function of oddsidemargin and marginparwidth: 
+%
+% calculate other dimensions [textwidth and evensidemargin]
+% in function of oddsidemargin and marginparwidth:
 % would be nicer to put in the class file...
 %
 \addtolength{\marginparwidth}{-\marginparsep}
@@ -35,10 +35,10 @@
 \author{Abhilash M A}
 % ------ Address --------------------------------------------------------
 
-\address{Technical Manager\\
-  CYBOSOL (Nuevalgo Solutions Pvt Ltd)\\
-  Technopark Phase III, Trivandrum\\
-  Kerala, India\\
+\address{Technical Lead, DevOps Team\\
+  Idexcel Technologies Pvt Ltd\\
+  Crystal Plaza 9-11, Bhuvanappa Layout,\\
+  Bengaluru, Karnataka, India\\
   {\em Ph:} (+91)-85-8901-5153}{
   {\em email:} \mbox{\small\tt abhidsm@gmail.com}\\
   {\em web:} \mbox{\small\tt abhidsm.com}\\
@@ -63,22 +63,21 @@
 % --------- Research ----------------------------------------------------
 
 \begin{category}{Research interests}
-  \citemnobullet NoSQL databases, XMPP Server, iOS \& Android application development,
-  Test Driven Development, development of Ruby Gems, Design Patterns, Clean Code.
+  \citemnobullet DevOps, Cloud computing, NoSQL databases, Microservice Architecture, REST APIs, iOS \& Android application development,
+  Test Driven Development, Design Patterns, Clean Code.
 \end{category}
 
 \begin{category}{Technical Skills}
   \citembullet {\it Operating Systems}: GNU/Linux, Mac OSX, Microsoft Windows.
-  \citembullet {\it Programming Languages}: Ruby, JavaScript, HTML5, CSS3,
+  \citembullet {\it Programming Languages}: Ruby, Python, JavaScript, HTML5, CSS3,
   Objective C, Java, C\# .NET.
   \citembullet {\it Frameworks}: Ruby on Rails, ASP.NET, jQuery, RSpec, Jasmine.
-  \citembullet {\it Databases}: MySQL, MongoDB, Redis.
-  \citembullet {\it Tools}: Backbone.js, Sinon.js, jsTestDriver,
+  \citembullet {\it Databases}: MySQL, PostgreSQL, MongoDB, Redis.
+  \citembullet {\it Tools}: Alexa, Backbone.js, Sinon.js, jsTestDriver,
   Jenkins, Capistrano.
-  \citembullet {\it Version Control}: Git.
-  \citembullet {\it Cloud Platforms}: Google App Engine, Amazon EC2,
-  Amazon S3, Openstack.
-  \citembullet {\it Specialities}: Ruby, Rails, NoSQL databases, Web services, Automation \& deployment, 
+  \citembullet {\it Version Control}: Git, AWS CodeCommit, Github, Gitlab
+  \citembullet {\it Cloud Platforms}: AWS, Google App Engine, Openstack.
+  \citembullet {\it Specialities}: Ruby on Rails, AWS, Node.js, NoSQL databases, Web services, DevOps, Automation \& deployment,
   Android, iOS and Web application development, Test Driven
   Development, experienced in Agile software development
   methodologies, polyglot programmer, full stack developer.
@@ -87,41 +86,53 @@
 % -------- Work experience --------------------------------------------
 
 \begin{category}{Work \\experience}
+  \citem{Idexcel Technologies Pvt Ltd, Bangalore}
+  \citemnobullet \textbf{Technical Lead, DevOps Team} \hfill \textbf{April 2016 -- Present}
+  \citemnobullet Idexcel is a global IT Staffing and IT Services firm specializing in seven core areas that deliver a wide range of resource and technology solutions to corporate clients: Cloud Services, DevOps Services, Big Data Services, IT Staffing, Digital Services, Application Services, Testing Services.
+  \begin{itemize}
+  \item \textbf{DevOps} {\em Apr 2018 - Present}: Providing CI/CD solutions to the customers, doing R\&D on different DevOps tools, came up with a DevOps framework which can support plug and play option with any other third party DevOps tools, writing deployment scripts using Ansible, Chef, and Shell scripts. Experience in writing automation script to build and deploy Docker images to AWS ECS. Created CI/CD pipelines for Windows (ASP.NET) and Linux (RoR, Angular, Java) based applications using AWS CodePipeline, Jenkins, etc.  \textbf{Role}: {\em Technical Lead}.
+  \end{itemize}
+  \begin{itemize}
+  \item \textbf{Financial Product} {\em Aug 2017 - Apr 2018}: Managing the entire development team working on the financial product. My responsibilities include sprint planning, estimation, assigning tickets to the team members, identifying resources for specific tasks, providing solutions to the technical problems, code review, deployment, monitor and improve the performance of the product, encourage the team to do code refactoring, writing automated unit tests, etc. \textbf{Role}: {\em Technical Lead}.
+  \end{itemize}
+  \begin{itemize}
+  \item \textbf{Financial Product} {\em Apr 2016 - Jul 2017}: My responsibilities include providing solutions to the technical problems, code review, mentoring juniors, deployment, monitor and improve the performance of the product, develop new functionalities, code refactoring, writing automated unit tests, etc. \textbf{Role}: {\em Module Lead}.
+  \end{itemize}
   \citem{CYBOSOL (Nuevalgo Solutions), Technopark Phase III - Trivandrum}
-  \citemnobullet \textbf{Technical Manager} \hfill \textbf{November 2014 -- present}
+  \citemnobullet \textbf{Technical Manager} \hfill \textbf{November 2014 -- April 2016}
   \citemnobullet CYBOSOL (Nuevalgo Solutions) provides turnkey and custom solutions on desktop, web, mobile and cloud-based environments.
   \begin{itemize}
-  \item \textbf{Messenger App} {\em Mar 2015 - present}: A chat
+  \item \textbf{Messenger App} {\em Mar 2015 - Apr 2016}: A chat
     application with features like register with phone number, sync
     phone contacts, chat with image, audio, video, location, contacts,
     Group chat, etc. The application is implemented using {\em Ruby on
       Rails, ejabberd xmpp server, ActiveAdmin, MySQL, iOS,
-      Android}. \textbf{Role}: {\em Technical Manager}. 
-  \item \textbf{Mobile Banking App} {\em Nov 2014 - present}: A mobile
+      Android}. \textbf{Role}: {\em Technical Manager}.
+  \item \textbf{Mobile Banking App} {\em Nov 2014 - Apr 2016}: A mobile
     banking app for merchants and consumers. Merchant mobile app uses
     a swipe device to get the credit card details. The application has
     the features like balance enquiry, bill payment, card transfer,
     mini statement etc. The application uses SSL connection and PIN
     encryption to secure the transactions. Implemented using {\em Ruby
       on Rails, MySQL, MongoDB, iOS, Android}. \textbf{Role}: {\em
-      Technical Manager}.\\\\\\ 
+      Technical Manager}.\\\\\\
   \end{itemize}
   \citem{Nuevalgo Solutions, Infopark Thrissur}
   \citemnobullet \textbf{Product Lead} \hfill \textbf{August 2013 -- November 2014}
   \citemnobullet Nuevalgo is a product and services based company who delivers custom software for desktop, web, mobile and cloud-based environments.
   \begin{itemize}
-  \item \textbf{GroupBuy} {\em Aug 2013 - present}: A social
+  \item \textbf{GroupBuy} {\em Aug 2013 - Nov 2014}: A social
     e-commerce application where customers can search, request or buy
     products. Login and share with Social networks. Purchase products
     using debit/credit cards and paypal. Also merchants can use this
     app to sell their products. Implemented using {\em Ruby on Rails,
-      ActiveaAdmin, Backbone.js, MySQL, MongoDB, iOS, Android}. \textbf{Role}: {\em Product lead}. 
+      ActiveaAdmin, Backbone.js, MySQL, MongoDB, iOS, Android}. \textbf{Role}: {\em Product lead}.
   \item \textbf{Project Tracker} {\em Oct 2013 - present}: Initially
     started as an Internal time tracking application which has grown
     in to a product that helps other    organizations to track their
     projects. Mainly Projects, Tasks and Activities. It also includes
     Bug tracking and Opportunity/Lead tracking. This is a SaaS app
-    which uses {\em Ruby on Rails, MySQL, Active Admin, Android, iOS}. \textbf{Role}: {\em Product lead}. 
+    which uses {\em Ruby on Rails, MySQL, Active Admin, Android, iOS}. \textbf{Role}: {\em Product lead}.
   \item \textbf{Ebook Application} {\em May 2014 - Oct 2015}: Ebook is
     a web/mobile app where the main functionality is Ebook
     reader. There are more features like Bookmark, Notes, Highlight,
@@ -129,7 +140,7 @@
     Social network login, multi language support, file converter (PDF,
     DOC to Epub) etc. Implemented using {\em Ruby on Rails, MySQL,
       Calibre, Open Office, Apache Solr, iOS, Android,
-      Angular.js}. \textbf{Role}: {\em Product lead}. 
+      Angular.js}. \textbf{Role}: {\em Product lead}.
   \end{itemize}
   \citem{Multunus Software Private Limited, Bangalore}
   \citemnobullet \textbf{Product Developer} \hfill \textbf{May 2010 -- July 2013}
@@ -138,7 +149,7 @@
   complex and risky.\\Multunus practices Extreme Programming and Continuous
   Delivery to rapidly ship quality software. Ruby on Rails, HTML5, Android and iOS are the technologies of choice.
   \begin{itemize}
-  \item \textbf{TIMS} {\em Apr 2013 - Jun 2013}: This is a data centric web application which uses {\em Ruby on Rails, Backbone.js, MySQL, MongoDB and Redis}. \textbf{Role}: {\em Team lead}. 
+  \item \textbf{TIMS} {\em Apr 2013 - Jun 2013}: This is a data centric web application which uses {\em Ruby on Rails, Backbone.js, MySQL, MongoDB and Redis}. \textbf{Role}: {\em Team lead}.
   \item \textbf{GoCapital.Asia} {\em Nov 2012 - Mar 2013}: GoCapital.Asia is a
     platform to connect startups with investors and talent i.e. to
     help them raise capital and recruit the right team. This is a web
@@ -159,12 +170,12 @@
     stations connect Local Businesses with the Local community. {\em Ruby on Rails, Geokit, Rspec}. \textbf{Role}: {\em Developer}.
   \item Developed Outlook plugin using {\em C\#.NET, VSTO}. \textbf{Role}: {\em Developer}.
   \end{itemize}
-  \citem{AikoInfotech, Thrissur} 
+  \citem{AikoInfotech, Thrissur}
   \citemnobullet \textbf{Software Programmer} \hfill \textbf{July 2008 -- April 2010}
   \citemnobullet Aiko Infotech is a software and networking solutions
   company. Main business areas include IT Consultancy, Software and Network
   Training, Software Solutions, Networking Solutions.
-  \begin{itemize} 
+  \begin{itemize}
   \item \textbf{IGPTest}: Graphical Application using {\em C\#.NET}. \textbf{Role}: {\em Programmer}.
   \item \textbf{MasNetway}: Web based Business application and Multi Level Marketing
     application using {\em ASP.NET, C\#.NET and MS SQL}. \textbf{Role}: {\em Programmer}.
@@ -175,6 +186,10 @@
 % -------- Awards & Honours ---------------------------------------
 
 \begin{category}{Awards \&\\ Honours}
+  \citem{``Star Performer of the Month''}, {\em
+    DevOps Team, Idexcel, Bangalore}. \hfill \textbf{Nov-2018}
+  \citem{``AWS Certified Developer - Associate Level''}, {\em
+    Bangalore}. \hfill \textbf{2016}
   \citem{``Best Performance Award''}, {\em
     CYBOSOL (Nuevalgo Solutions)}. \hfill \textbf{2014}
   \citem{``Star of Nuevalgo''}, {\em Nuevalgo Solutions}. \hfill \textbf{2013}
@@ -196,14 +211,14 @@
 
 % -------- Reference --------------------------------------------
 
-\begin{category}{Reference}
-  \citemnobullet \\
-  \begin{tabular}{ll}Shihabudheen P K&Aity A K\\
-    CEO&Director\\
-    Winwius Techno Solutions&Aiko Infotech\\
-    Infopark, Kochi, Kerala&Thrissur, Kerala\\
-    Email: \mbox{\small\tt shihabudheen.pk@gmail.com}&Email: \mbox{\small\tt mailofaity@gmail.com}\\
-    Ph: (+91)-99-6142-9066&Ph: (+91)-99-6198-5477
-  \end{tabular}
-\end{category}
+%\begin{category}{Reference}
+%  \citemnobullet \\
+%  \begin{tabular}{ll}Shihabudheen P K&Aity A K\\
+%    CEO&Director\\
+%    Winwius Techno Solutions&Aiko Infotech\\
+%    Infopark, Kochi, Kerala&Thrissur, Kerala\\
+%    Email: \mbox{\small\tt shihabudheen.pk@gmail.com}&Email: \mbox{\small\tt mailofaity@gmail.com}\\
+%    Ph: (+91)-99-6142-9066&Ph: (+91)-99-6198-5477
+%  \end{tabular}
+%\end{category}
 \end{document}
